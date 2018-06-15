@@ -1,0 +1,25 @@
+body {
+    background-image: url("/assets/images/background1.jpg");
+    padding-top: 70px;
+    animation: backgrounds 30s ease-in-out infinite;
+}
+
+.deleteNote {
+	display: inline-block;
+}
+
+.previousNotes {
+    display: inline-block;
+    width: 90%
+}
+
+#scrape {
+    margin: 8px 0px;
+}
+
+@keyframes backgrounds {
+    0%   {background-image:"/assets/images/background1.jpg" }
+    25%  {background-image:"/assets/images/background2.jpg" }
+    50%  {background-image:"/assets/images/background3.jpg" }
+    75%  {background-image:"/assets/images/background4.jpg";}
+}
